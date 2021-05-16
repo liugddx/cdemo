@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/demo.dir/demo.c.obj"
+  "CMakeFiles/demo.dir/overflow_example.c.obj"
   "demo.exe"
   "demo.exe.manifest"
   "demo.pdb"

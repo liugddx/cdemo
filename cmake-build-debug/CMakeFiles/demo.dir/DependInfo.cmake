@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/lenovo/CLionProjects/demo/demo.c" "C:/Users/lenovo/CLionProjects/demo/cmake-build-debug/CMakeFiles/demo.dir/demo.c.obj"
+  "C:/Users/lenovo/CLionProjects/demo/overflow_example.c" "C:/Users/lenovo/CLionProjects/demo/cmake-build-debug/CMakeFiles/demo.dir/overflow_example.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

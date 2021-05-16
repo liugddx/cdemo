@@ -75,27 +75,27 @@ include CMakeFiles/demo.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/demo.dir/flags.make
 
-CMakeFiles/demo.dir/demo.c.obj: CMakeFiles/demo.dir/flags.make
-CMakeFiles/demo.dir/demo.c.obj: ../demo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\lenovo\CLionProjects\demo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/demo.dir/demo.c.obj"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\demo.dir\demo.c.obj -c C:\Users\lenovo\CLionProjects\demo\demo.c
+CMakeFiles/demo.dir/overflow_example.c.obj: CMakeFiles/demo.dir/flags.make
+CMakeFiles/demo.dir/overflow_example.c.obj: ../overflow_example.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\lenovo\CLionProjects\demo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/demo.dir/overflow_example.c.obj"
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\demo.dir\overflow_example.c.obj -c C:\Users\lenovo\CLionProjects\demo\overflow_example.c
 
-CMakeFiles/demo.dir/demo.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/demo.dir/demo.c.i"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\lenovo\CLionProjects\demo\demo.c > CMakeFiles\demo.dir\demo.c.i
+CMakeFiles/demo.dir/overflow_example.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/demo.dir/overflow_example.c.i"
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\lenovo\CLionProjects\demo\overflow_example.c > CMakeFiles\demo.dir\overflow_example.c.i
 
-CMakeFiles/demo.dir/demo.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/demo.dir/demo.c.s"
-	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\lenovo\CLionProjects\demo\demo.c -o CMakeFiles\demo.dir\demo.c.s
+CMakeFiles/demo.dir/overflow_example.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/demo.dir/overflow_example.c.s"
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\lenovo\CLionProjects\demo\overflow_example.c -o CMakeFiles\demo.dir\overflow_example.c.s
 
 # Object files for target demo
 demo_OBJECTS = \
-"CMakeFiles/demo.dir/demo.c.obj"
+"CMakeFiles/demo.dir/overflow_example.c.obj"
 
 # External object files for target demo
 demo_EXTERNAL_OBJECTS =
 
-demo.exe: CMakeFiles/demo.dir/demo.c.obj
+demo.exe: CMakeFiles/demo.dir/overflow_example.c.obj
 demo.exe: CMakeFiles/demo.dir/build.make
 demo.exe: CMakeFiles/demo.dir/linklibs.rsp
 demo.exe: CMakeFiles/demo.dir/objects1.rsp
